@@ -42,6 +42,7 @@ namespace csharpStudy
                 {"Usando Continue - Estruturas de Controle", UsandoContinue.Executar},
 
                 // Classes e Métodos
+                {"Membros - Classes e Metodos", Membros.Executar}
             });
 
             central.SelecionarEExecutar();

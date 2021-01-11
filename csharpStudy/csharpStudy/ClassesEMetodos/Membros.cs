@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace csharpStudy.ClassesEObjetos
+namespace csharpStudy.ClassesEMetodos
 {
     class Membros
     {

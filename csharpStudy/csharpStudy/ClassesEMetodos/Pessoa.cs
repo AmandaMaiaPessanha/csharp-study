@@ -1,8 +1,8 @@
 ﻿using System;
 
-namespace csharpStudy.ClassesEObjetos
+namespace csharpStudy.ClassesEMetodos
 {
-    class Pessoa
+    public class Pessoa
     {
         // Propriedades em PascalCase, tem valor null como padrão.
         public string Nome { get; set; }

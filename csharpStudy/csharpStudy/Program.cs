@@ -1,4 +1,4 @@
-﻿using csharpStudy.ClassesEObjetos;
+﻿using csharpStudy.ClassesEMetodos;
 using csharpStudy.EstruturaDeControle;
 using csharpStudy.Fundamentos;
 using System;
@@ -43,6 +43,7 @@ namespace csharpStudy
 
                 // Classes e Métodos
                 {"Membros - Classes e Metodos", Membros.Executar}
+
             });
 
             central.SelecionarEExecutar();

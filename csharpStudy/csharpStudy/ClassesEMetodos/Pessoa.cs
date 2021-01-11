@@ -4,10 +4,10 @@ namespace csharpStudy.ClassesEMetodos
 {
     public class Pessoa
     {
-        // Propriedades em PascalCase, tem valor null como padrão.
+        // Propriedades em PascalCase. Os tipos que ficam em cor azul são do tipo nullable, no caso tem valor null como padrão.
         public string Nome { get; set; }
 
-        // Propriedades em PascalCase, tem valor 0 como padrão.
+        // Propriedades em PascalCase. . Os tipos que ficam em cor azul são do tipo nullable, no caso tem valor 0 como padrão.
         public int Idade { get; set; }
 
         public string Apresentar()

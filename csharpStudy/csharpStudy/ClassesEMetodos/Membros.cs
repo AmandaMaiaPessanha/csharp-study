@@ -12,8 +12,6 @@ namespace csharpStudy.ClassesEMetodos
             sicrano.Nome = "Amanda";
             sicrano.Idade = 21;
 
-            //Console.WriteLine($"{sicrano.Nome} tem {sicrano.Idade} anos.");
-            Console.WriteLine("Método apresentar no console, com console.writeline");
             sicrano.ApresentarNoConsole();
             sicrano.Zerar();
             sicrano.ApresentarNoConsole();

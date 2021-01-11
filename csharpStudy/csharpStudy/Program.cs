@@ -46,7 +46,8 @@ namespace csharpStudy
                 {"Construtores - Classes e Métodos", Construtores.Executar},
                 {"Métodos com retorno - Classes e Métodos", MetodosComRetorno.Executar },
                 {"Métodos estaticos - Classes e Métodos", MetodosEstaticos.Executar },
-                {"Atributos estaticos - Classes e Métodos", AtributosEstaticos.Executar }
+                {"Atributos estaticos - Classes e Métodos", AtributosEstaticos.Executar },
+                {"Desafio Atributo - Classes e Métodos", DesafioAtributo.Executar }
 
             });
 

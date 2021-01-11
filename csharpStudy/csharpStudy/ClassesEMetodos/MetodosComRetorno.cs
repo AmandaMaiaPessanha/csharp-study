@@ -25,6 +25,53 @@ namespace csharpStudy.ClassesEMetodos
         }
     }
 
+    class CalculadoraCadeia
+    {
+        int memoria;
+
+        public CalculadoraCadeia Somar(int a)
+        {
+            memoria += a;
+            return this;
+        }
+
+        public CalculadoraCadeia Subtrair(int a)
+        {
+            memoria -= a;
+            return this;
+        }
+
+        public CalculadoraCadeia Multiplicar(int a)
+        {
+            memoria *= a;
+            return this;
+        }
+
+        public CalculadoraCadeia Dividir(int a)
+        {
+            memoria /= a;
+            return this;
+        }
+
+        public CalculadoraCadeia Limpar()
+        {
+            memoria = 0;
+            return this;
+        }
+
+        public CalculadoraCadeia Imprimir()
+        {
+            Console.WriteLine($"{memoria}");
+            return this;
+        }
+
+        public int Resultado()
+        {
+            return memoria;
+        }
+
+    }
+
 
     class MetodosComRetorno
     {
@@ -40,6 +87,15 @@ namespace csharpStudy.ClassesEMetodos
             Console.WriteLine(calculadoraComun.Multiplicar(4, 4));
 
             Console.WriteLine(calculadoraComun.Divisao(10, 2));
+
+            var calculadoraCadeia = new CalculadoraCadeia();
+
+            Console.WriteLine("Calculadora Cadeia");
+            calculadoraCadeia.Somar(3).Subtrair(3).Multiplicar(3).Dividir(3).Imprimir().Limpar().Imprimir();
+
+            var resultado = calculadoraCadeia.Somar(3).Multiplicar(2).Resultado();
+            Console.WriteLine(resultado);
+
         }
     }
 }

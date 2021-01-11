@@ -42,13 +42,11 @@ namespace csharpStudy
                 {"Usando Continue - Estruturas de Controle", UsandoContinue.Executar},
 
                 // Classes e Métodos
-                {"Membros - Classes e Metodos", Membros.Executar},
-                {"Construtores - Classes e Metodos", Construtores.Executar},
-                {"Metodos com retorno - Classes e Metodos", MetodosComRetorno.Executar }
-
-
-
-
+                {"Membros - Classes e Métodos", Membros.Executar},
+                {"Construtores - Classes e Métodos", Construtores.Executar},
+                {"Métodos com retorno - Classes e Métodos", MetodosComRetorno.Executar },
+                {"Métodos estaticos - Classes e Métodos", MetodosEstaticos.Executar },
+                {"Atributos estaticos - Classes e Métodos", AtributosEstaticos.Executar }
 
             });
 

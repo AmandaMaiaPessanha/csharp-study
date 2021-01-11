@@ -43,7 +43,8 @@ namespace csharpStudy
 
                 // Classes e Métodos
                 {"Membros - Classes e Metodos", Membros.Executar},
-                {"Construtores - Classes e Metodos", Construtores.Executar}
+                {"Construtores - Classes e Metodos", Construtores.Executar},
+                {"Metodos com retorno - Classes e Metodos", MetodosComRetorno.Executar }
 
 
 
